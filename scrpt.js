@@ -4,11 +4,11 @@ const previous = document.querySelector("#previous")
 const next = document.querySelector("#next")
 
 let offset = 200;
-let limit = 19;
+let limit = 20;
 
 previous.addEventListener('click', ()=>{
     if (offset != 1 ){
-        offset -=20;
+        offset -=21;
         removechildNodes(pokemonContainer);
         fetchPokemons(offset,limit);
     }
@@ -16,7 +16,7 @@ previous.addEventListener('click', ()=>{
     
 })
 next.addEventListener('click', ()=>{
-    offset +=20;    
+    offset +=21;    
     removechildNodes(pokemonContainer);
     fetchPokemons(offset,limit);
     
@@ -63,7 +63,7 @@ function createPokemon(pokemon){
 
     const cardBack = document.createElement('div');
     cardBack.classList.add('pokemon-block-back');
-    cardBack.textContent="carta atras";
+    cardBack.textContent="info";
 
     cardContainer.appendChild(card);
     cardContainer.appendChild(cardBack);
