@@ -24,20 +24,27 @@ En esta pagina web usamos la api de pokemon para traer informacion sobre los pok
 
 Te muestro como ejecutar el proyecto en tu computadora:
 
-+ Clonar el repositorio en tu pc
-+ Instala node en tu computadora desde [la pagina oficial](https://nodejs.org/es)
-+ Ejecuta el comando ̣`npm i` e instala js server 
-+ Ejecuta el comando `npm run dev` para iniciar el server
-+ Abre el archivo html para poder observar el proyecto
++ Puedes clonar el repositorio con `git clone https://github.com/EMpinzon/pokeApi-Practicas.git` o puedes descargarlo como .zip
+![descargarZip](assets/downloadZip.png)
++ Agregas el  proyecto en tu pc
++ Abres la carpeta con el contendio
++ Vas a index.html
++ Si tienes live server, puedes dar click derecho, abrir con live server
+![abrirLiveServer](assets/openLiveserver.png)
++ Si no tienes live server, puedes ir a extensiones y dar click en instalar
+![abrirLiveServer](assets/downloadLiveserver.png)
 
 ## Funcionalidades 
 
 Este proyecto te permite distintas funciones :
 
 + Informacion basica de el pokemon en una card
-+ En la parte tracera de la card encontraras mas informacion de el pokemon
-+ Modificar los datos de el pokemon con ayuda de range inputs
-+ Guardar los cambios de la info de el pokemon  de la base de datos de jason server
+![infoPokemon](assets/pokemonInfo.png)
++ En la parte tracera de la card encontraras informacion de las estadisticas de el pokemon, puedes acceder solo dejando el cursos en la tarjeta
+![statsPokemon](assets/pokemonStats.png)
++ Cambiar de pagina hacia adelante o hacia atras, esto te mostrara 21 pokemons por pagina
+![changePage](assets/changePage.png)
+
 
 ## Contribuciones 
 
@@ -46,7 +53,4 @@ Puedes contribuir a este proyecto si deseas por medio de pull request para propo
 ## Autor 
 
 [Edgar Mauricio Pinzon Monsalve](https://github.com/EMpinzon/pokeApi-Practicas.git)
-
-
-## Screenshots
 

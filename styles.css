@@ -33,7 +33,7 @@ color: white;
 }
 
 .img-container {
-    background-image: url("blob.svg");
+    background-image: url("assets/blob.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
